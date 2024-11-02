@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@1,300&family=Rajdhani:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@1,300&family=Rajdhani:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+     
+}
+.page{
+    width: 40%;
+    height: 63%;
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color:#E57F84;
+    border-radius: 20px;
+
+    
+}
+.heads{
+    display: flex;
+    justify-content: center;
+    
+}
+.page h2{
+    position: absolute;
+    top: 5%;
+   
+    margin-left: 5%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.8rem;
+}
+.textbox-ctrl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+
+    
+}
+.textbox{
+    width: calc(100% - 35px);
+    height: 300px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #F4EAE6;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+}
+.opt-btns{
+ position: absolute;
+ bottom: 5%;
+ margin-left: 3%;
+ 
+ width: calc(100% - 35px);
+ height: calc(100% - 85%);
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 0px;
+ 
+}
+.opt-btns button{
+    width: 17%;
+    height: 70%;
+    border: 0px ;
+    border-radius: 20px;
+    background-color: #4297A0;
+   font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+.opt-btns select{
+    width: 63%;
+    height: 69%;
+    border-radius: 20px;
+    background-color: #4297A0;
+}
